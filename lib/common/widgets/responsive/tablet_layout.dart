@@ -9,7 +9,7 @@ class TabletLayout extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: const Drawer(),
-      appBar: AppBar(),
+      appBar: AppBar(title: Text('Tablet'),),
       body: body ?? const SizedBox(),
       );
   }
