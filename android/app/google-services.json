@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "103023698604",
+    "project_id": "docmanager-6515a",
+    "storage_bucket": "docmanager-6515a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103023698604:android:4dbea2351eb35625797509",
+        "android_client_info": {
+          "package_name": "com.example.yt_ecommerce_admin_panel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqskiLQG5OFuEnokZLNFyKFImR5zAV58E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
