@@ -46,10 +46,11 @@ class DashBoardScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return TSiteTemplate(
+    return const TSiteTemplate(
       desktop: DesktopLayout(),
       tablet: TabletLayout(),
       mobile: MobileLayout(),
+      
     );
   }
 }
