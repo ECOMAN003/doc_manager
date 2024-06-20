@@ -1,7 +1,4 @@
 import 'package:doc_manager/common/widgets/layouts/templates/site_layout.dart';
-import 'package:doc_manager/common/widgets/responsive/desktop_layout.dart';
-import 'package:doc_manager/common/widgets/responsive/mobile_layout.dart';
-import 'package:doc_manager/common/widgets/responsive/tablet_layout.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:doc_manager/routes/app_routes.dart';
@@ -47,10 +44,36 @@ class DashBoardScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const TSiteTemplate(
-      desktop: DesktopLayout(),
-      tablet: TabletLayout(),
-      mobile: MobileLayout(),
-      
+      desktop: Desktop(),
+      tablet: Tablet(),
+      mobile: Mobile(),
     );
+  }
+}
+
+class Desktop extends StatelessWidget {
+  const Desktop({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
+
+class Tablet extends StatelessWidget {
+  const Tablet({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
+
+class Mobile extends StatelessWidget {
+  const Mobile({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
   }
 }
