@@ -37,7 +37,7 @@ class TSidebar extends StatelessWidget {
                     //Menu Items
                     const TMenuItem(route: TRoutes.dashboard, icon: Iconsax.status, itemName: 'DashBoard',),
                     const TMenuItem(route: TRoutes.archiveFile, icon: Iconsax.archive, itemName: 'Archive',),
-                    const TMenuItem(route: TRoutes.signFile, icon: Iconsax.pen_add, itemName: 'DashBoard',),
+                    const TMenuItem(route: TRoutes.signFile, icon: Iconsax.pen_add, itemName: 'Sign',),
                     
                   ],
                 ),
