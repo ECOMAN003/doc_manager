@@ -28,7 +28,7 @@ class App extends StatelessWidget {
         ),
       ),
       getPages: TAppRoutes.pages,
-      initialRoute: TRoutes.dashboard,
+      initialRoute: TRoutes.login,
       unknownRoute: GetPage(
           name: '/page-not-found',
           page: () => const Scaffold(

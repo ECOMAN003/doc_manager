@@ -1,3 +1,6 @@
+import 'package:doc_manager/common/widgets/layouts/templates/site_layout.dart';
+import 'package:doc_manager/features/authentication/screens/responsive_screens/login_desktop_tablet.dart';
+import 'package:doc_manager/features/authentication/screens/responsive_screens/login_mobile.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -5,6 +8,6 @@ class LoginScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const TSiteTemplate(useLayout: false, desktop: LoginScreenDesktopTablet(), mobile: LoginScreenMobile());
   }
 }
