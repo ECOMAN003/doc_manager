@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class LoginScreenMobile extends StatelessWidget {
-  const LoginScreenMobile({super.key});
+class ResetPasswordScreenMobile extends StatelessWidget {
+  const ResetPasswordScreenMobile({super.key});
 
   @override
   Widget build(BuildContext context) {

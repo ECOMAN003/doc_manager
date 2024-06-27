@@ -3,7 +3,7 @@
 class TTexts {
 
   // -- Admin Default Credentials
-  static const String adminEmail = "support@codingwitht.com";
+  static const String adminEmail = "ekiliheman@gmail.com";
   static const String adminPassword = "Admin@123";
 
   // -- Storage Paths
@@ -18,7 +18,7 @@ class TTexts {
   static const String skip = "Skip";
   static const String done = "Done";
   static const String submit = "Submit";
-  static const String appName = "T Store";
+  static const String appName = "T Doc Manager";
   static const String tContinue = "Continue";
 
 
