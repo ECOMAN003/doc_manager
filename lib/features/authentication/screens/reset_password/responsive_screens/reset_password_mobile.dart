@@ -1,3 +1,5 @@
+import 'package:doc_manager/features/authentication/screens/reset_password/widgets/reset_password_widget.dart';
+import 'package:doc_manager/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';
 
 class ResetPasswordScreenMobile extends StatelessWidget {
@@ -5,6 +7,13 @@ class ResetPasswordScreenMobile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const Scaffold(
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: EdgeInsets.all(TSizes.defaultSpace),
+          child: ResetPasswordWidget(),
+        ),
+      ),
+    );
   }
 }
