@@ -9,4 +9,13 @@ class TRoutes {
   static const downloadFile = '/download';
   static const uploadFile = '/upload';
   static const settings = '/settings';
+
+  static List sidebarMenuItems = [
+    TRoutes.dashboard,
+    TRoutes.archiveFile,
+    TRoutes.signFile,
+    TRoutes.downloadFile,
+    TRoutes.uploadFile,
+    TRoutes.settings,
+  ];
 }
