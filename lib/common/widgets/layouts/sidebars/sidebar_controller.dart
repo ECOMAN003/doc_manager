@@ -11,12 +11,10 @@ class SidebarController extends GetxController {
 
   void changeHoverItem(String route) {
     if (!isActive(route)) hoverItem.value = route;
-    print('chnge hover');
   }
 
   bool isActive(String route) => activeItem.value == route;
   bool isHovering(String route) {
-    print('is hovering');
     return hoverItem.value == route;
   }
 
