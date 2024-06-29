@@ -3,9 +3,7 @@ import 'package:doc_manager/utils/constants/sizes.dart';
 import 'package:doc_manager/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_navigation/get_navigation.dart';
 import 'package:iconsax/iconsax.dart';
-
 
 class TLoginForm extends StatelessWidget {
   const TLoginForm({
@@ -16,8 +14,7 @@ class TLoginForm extends StatelessWidget {
   Widget build(BuildContext context) {
     return Form(
         child: Padding(
-      padding: const EdgeInsets.symmetric(
-          vertical: TSizes.spaceBtwSections),
+      padding: const EdgeInsets.symmetric(vertical: TSizes.spaceBtwSections),
       child: Column(
         children: [
           ///Email
@@ -28,18 +25,19 @@ class TLoginForm extends StatelessWidget {
             ),
           ),
           const SizedBox(height: TSizes.spaceBtwInputFields),
-    
+
           ///Password
           TextFormField(
             decoration: InputDecoration(
               prefixIcon: const Icon(Iconsax.direct_right),
               labelText: TTexts.password,
               suffixIcon: IconButton(
-                  onPressed: () {},
-                  icon: const Icon(Iconsax.eye_slash)),
+                onPressed: () {},
+                icon: const Icon(Iconsax.eye_slash),
+              ),
             ),
           ),
-    
+
           /// Remember Me & Forget Password
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -52,7 +50,7 @@ class TLoginForm extends StatelessWidget {
                   const Text(TTexts.rememberMe),
                 ],
               ),
-    
+
               ///Forgot Password
               TextButton(
                   onPressed: () => Get.toNamed(TRoutes.forgetPassword),
@@ -60,13 +58,13 @@ class TLoginForm extends StatelessWidget {
             ],
           ),
           const SizedBox(height: TSizes.spaceBtwSections),
-    
+
           ///Sign In Button
           SizedBox(
             width: double.infinity,
             child: ElevatedButton(
               onPressed: () {},
-              child: Text(TTexts.signIn),
+              child: const Text(TTexts.signIn),
             ),
           )
         ],
