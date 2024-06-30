@@ -1,5 +1,5 @@
 
-import 'package:doc_manager/data/repositories/repositories.authentication/authentication_repository.dart';
+import 'package:doc_manager/data/repositories/authentication/authentication_repository.dart';
 import 'package:doc_manager/routes/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

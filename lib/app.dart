@@ -1,3 +1,4 @@
+import 'package:doc_manager/bindings/general_bindings.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:doc_manager/routes/app_routes.dart';
@@ -26,6 +27,7 @@ class App extends StatelessWidget {
           child: CircularProgressIndicator(color: Colors.white),
         ),
       ),
+      initialBinding: GeneralBindings(),
       getPages: TAppRoutes.pages,
       initialRoute: TRoutes.dashboard,
       unknownRoute: GetPage(

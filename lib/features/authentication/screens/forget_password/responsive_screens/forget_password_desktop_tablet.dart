@@ -7,7 +7,7 @@ class ForgetPasswordScreenDesktopTablet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return TLoginTemplate(
+    return const TLoginTemplate(
       child: HeaderAndForm(),
     );
   }
