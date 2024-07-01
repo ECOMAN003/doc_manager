@@ -1,4 +1,4 @@
-# yt_ecommerce_admin_panel
+# Doc Manager App
 
 A new Flutter project.
 
